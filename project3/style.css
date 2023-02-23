@@ -12,28 +12,30 @@ header {
 .important {
 	background-color: black;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: #2C64B4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-
-li {
-  float: left;
+#nav ul {
+    margin: 0;
+    padding: 0;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    float:left;
 }
-
-li a:hover {
-  background-color: #111;
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
 }
 h1 {
 	color: #FF652F;
