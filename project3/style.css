@@ -4,16 +4,16 @@ body {
 }
 header {
 	background-color:#858585;
-	padding: 10px;
-	text-align: center;
-	font-size: 60px;
+	padding:10px;
+	text-align:center;
+	font-size:60px;
 	color: white;
 }
 .important {
 	background-color: black;
 }
 div {
-	padding: 5px;
+	padding:5px;
 }
 #nav {
 	position: absolute;
@@ -58,8 +58,8 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+  padding:15px;
+  text-align:center;
 }
 h1 {
 	color:#B8B8B8;
@@ -82,8 +82,8 @@ p {
 }
 footer {
 	background-color:#1F1F1F;
-	padding: 10px;
-	text-align: right;
+	padding:10px;
+	text-align:right;
 	color:grey;
 }
 
