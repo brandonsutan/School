@@ -83,7 +83,7 @@ p {
 footer {
 	background-color: #1F1F1F;
 	padding: 10px;
-	text-aligned: center;
+	text-align: right;
 	color: grey;
 }
 
