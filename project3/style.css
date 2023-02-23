@@ -5,6 +5,10 @@ body {
 .important {
 	background-color: black;
 }
+#nav {
+	color: red;
+	text-align: center;
+}
 h1 {
 	color: #FF652F;
 	text-align:center;
