@@ -13,7 +13,9 @@ header {
 	background-color: black;
 }
 li {
-  display: inline;
+	display: inline;
+	text-align: center;
+	font-size: 20px;
 }
 h1 {
 	color: #FF652F;
