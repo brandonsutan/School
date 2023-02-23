@@ -39,25 +39,19 @@ div {
     color: #FFF;
     text-align: center;
 }
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+}
+.column {
   float: left;
-  width: 180px;
+  width: 33.33%;
+  padding: 15px;
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding:15px;
-  text-align:center;
+.column {
+    width: 100%;
 }
 h1 {
 	color:#B8B8B8;
