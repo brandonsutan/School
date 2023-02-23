@@ -39,5 +39,8 @@ p {
 }
 footer {
 	background-color: black;
+	padding: 10px;
+	text-aligned: center;
+	color: white;
 }
 
