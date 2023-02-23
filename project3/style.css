@@ -2,6 +2,9 @@ body {
 	background-color: #747474;
 	
 }
+.important {
+	background-color: black;
+}
 h1 {
 	color: #FF652F;
 	text-align:center;
