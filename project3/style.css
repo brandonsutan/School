@@ -2,9 +2,6 @@ body {
 	background-color: #EDEDED;
 	
 }
-* {
-  box-sizing: border-box;
-}
 header {
 	background-color:#858585;
 	padding: 10px;
