@@ -4,6 +4,10 @@ body {
 }
 header {
 	background-color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
 }
 .important {
 	background-color: black;
@@ -21,7 +25,7 @@ nav {
 h1 {
 	color: #FF652F;
 	text-align:center;
-	font-size:60px;
+	font-size:40px;
 	font-family:"Verdana", "Arial", sans-serif;
 }
 h2 {
