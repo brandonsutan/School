@@ -8,6 +8,9 @@ body {
 	text-align: center;
 	
 }
+<div class="header">
+	<h1>Header</h1>
+</div>
 
 h1 {
 	color: #FF652F;
