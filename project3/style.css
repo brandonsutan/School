@@ -12,10 +12,8 @@ header {
 .important {
 	background-color: black;
 }
-nav {
-	text-aligned: center;
-	background-color: white;
-	padding: 20px
+li {
+  display: inline;
 }
 h1 {
 	color: #FF652F;
