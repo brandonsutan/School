@@ -12,6 +12,9 @@ header {
 .important {
 	background-color: black;
 }
+div {
+	padding: 50px;
+}
 #nav {
 	position: absolute;
 	left: 0px;
