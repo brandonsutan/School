@@ -9,7 +9,7 @@ header {
 	background-color: black;
 }
 nav {
-	float: center;
+	text-aligned: center;
 	background-color: black;
 	padding: 20px
 }
