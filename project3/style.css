@@ -6,7 +6,7 @@ body {
   background-color: #CDD2EC;
 }
 .header {
-  background-color: #4356B4;
+  background: #4356B4;
   padding: 20px;
   text-align: center;
 }
@@ -32,10 +32,10 @@ body {
 	text-align: center;
 }
 .navbar a:hover{
-	background: blue;
+	background: ;
 }
 .column {
-  float: left;
+  float: left;purple
   width: 33.33%;
   padding: 15px;
 }
@@ -50,7 +50,7 @@ body {
   }
 }
 .footer {
-  background-color: #121627;
+  background: #121627;
   padding: 10px;
   text-align: center;
 }
