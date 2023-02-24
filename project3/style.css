@@ -77,7 +77,14 @@ cite {
   font-style: italic;
 }
 figure {
-	text-align: Center;
-	font-size: 10px;
-	font-family:"Verdana", "Arial", sans-serif;
+  display: block;
+  float: left;
+  width: 200px;
+  margin: 20px
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
