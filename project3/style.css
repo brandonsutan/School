@@ -5,7 +5,7 @@ body {
   margin: 0;
   background-color: #CDD2EC;
 }
-.header {
+#myheader {
   background-color: #4356B4;
   padding: 20px;
   text-align: center;
@@ -72,4 +72,12 @@ p {
 	font-size:15px;
 	font-family:"Verdana", "Arial", sans-serif;
 	margin: 25px 25px 25px 25px;
+}
+cite {
+  font-style: italic;
+}
+figure {
+	text-align: Center;
+	font-size: 10px;
+	font-family:"Verdana", "Arial", sans-serif;
 }
