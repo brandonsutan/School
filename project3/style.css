@@ -76,15 +76,14 @@ p {
 cite {
   font-style: italic;
 }
-figure {
-  display: block;
-  float: left;
-  width: 200px;
-  margin: 20px
-}
-
-figcaption {
-  display: block;
-  text-align: center;
-  width: 100%;
+figure {   
+	display: inline-block;   
+	position: relative; 
+}  figcaption {   
+	position: absolute;  
+	bottom: 0;   
+	background: #fff;   
+	opacity: .75;   
+	width: 100%;   
+	text-align: center;
 }
