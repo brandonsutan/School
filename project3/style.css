@@ -90,4 +90,5 @@ cite {
 }
 figure {
 	text-align: center;
+	float: center;
 }
