@@ -78,12 +78,13 @@ cite {
 }
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: #CDD2EC;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #CDD2EC;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  text-align: center;
 }
