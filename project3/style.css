@@ -76,17 +76,6 @@ p {
 cite {
   font-style: italic;
 }
-figure {   
-	display: inline-block;   
-	position: relative; 
-}  figcaption {   
-	position: absolute;  
-	bottom: 0;   
-	background: #fff;   
-	opacity: .75;   
-	width: 100%;   
-	text-align: center;
-}
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
