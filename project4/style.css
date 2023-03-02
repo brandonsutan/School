@@ -5,11 +5,12 @@ body {
   margin: 0;
   background-color: #2C3531;
 }
-.header {
-  background-image: <img src="helicopter.jpg" alt=soldierslookingathelicopter>;
+header {
+  background-image: url('helicopter.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
 }
 .navigation ul{
 	list-style: none;
