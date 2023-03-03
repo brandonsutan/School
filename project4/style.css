@@ -142,11 +142,19 @@ hr {
   padding: 0;
 }
 
-image {
+img {
   width: 100%;
+  height: auto;
 }
 
 div.container {
   text-align: center;
   padding: 10px 20px;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
 }
