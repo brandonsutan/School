@@ -6,24 +6,11 @@ body {
   margin: 0;
   background-color: #2C3531;
 }
-
-.header-image {
-  background-image: url(“helicopter.jpg”);
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: auto;
+header {
+  background-color: #121627;
+  padding: 20px;
+  text-align: left;
 }
-
-.header-text {
-  text-align: center;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-}
-
 .navigation ul {
   list-style: none;
   background: #116466;
@@ -108,7 +95,7 @@ cite {
   background-color: #CDD2EC;
 }
 
-.flex-container>div {
+.flex-container > div {
   background-color: #CDD2EC;
   margin: 10px;
   padding: 20px;
@@ -151,9 +138,3 @@ div.container {
   padding: 10px 20px;
 }
 
-.topleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
-}
