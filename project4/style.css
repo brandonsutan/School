@@ -1,55 +1,64 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background-color: #2C3531;
 }
+
 .header-image {
-background-image: url(“helicopter.jpg”);
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-background-size: 100% 100%;
-padding: 25px;
+  background-image: url(“helicopter.jpg”);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: auto;
+  padding: 25px;
 }
+
 .header-text {
-text-align: center;
-position: relative;
-top: 60%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: black;
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
-.navigation ul{
-	list-style: none;
-	background: #116466;
-	padding: 0;
-	margin: 0;
-	text-align: center;
+
+.navigation ul {
+  list-style: none;
+  background: #116466;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
-.navigation li{
-	display: inline-block;
+
+.navigation li {
+  display: inline-block;
 }
-.navigation a{
-	text-decoration: none;
-	color: #fff;
-	width: 100%;
-	display: block;
-	padding: 25px 20px;
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-align: center;
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
-.navigation a:hover{
-	background: purple;
+
+.navigation a:hover {
+  background: purple;
 }
+
 .column {
   float: left;
   width: 33.33%;
   padding: 15px;
 }
+
 .row: after {
   content: "";
   display: table;
@@ -61,67 +70,83 @@ color: black;
     width: 100%;
   }
 }
+
 .footer {
-    display: table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 h1 {
-	color: #ffc;
-	text-align: left;
-	font-size: 40px;
-	font-family: "Verdana", "Arial", sans-serif;
+  color: #ffc;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Verdana", "Arial", sans-serif;
 }
+
 h2 {
-	color: #121627;
-	text-align: center;
-	font-size: 30px;
-	font-family: "Verdana", "Arial", sans-serif;
+  color: #121627;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Verdana", "Arial", sans-serif;
 }
+
 p {
-	color: #121627;
-	text-align: left;
-	font-size: 15px;
-	font-family: "Verdana", "Arial", sans-serif;
-	margin: 25px 25px 25px 25px;
+  color: #121627;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Verdana", "Arial", sans-serif;
+  margin: 25px 25px 25px 25px;
 }
+
 cite {
   font-style: italic;
 }
+
 .flex-container {
   display: flex;
   background-color: #CDD2EC;
 }
 
-.flex-container > div {
+.flex-container>div {
   background-color: #CDD2EC;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
+
 figure {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 dl {
   display: table;
   margin: 0 auto;
 }
+
 dt {
   text-align: center;
 }
+
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
+
 image {
   width: 100%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
