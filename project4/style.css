@@ -137,4 +137,21 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
-
+#btn-group button {
+  background-color: #04AA6D;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#btn-group button: {
+  border-bottom: none;
+}
+#btn-group button:hover {
+  background-color: #3e8e41;
+}
