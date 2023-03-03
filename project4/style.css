@@ -6,7 +6,7 @@ body {
   background-color: #2C3531;
 }
 .header {
-  background-image: url('helicopter.jpg');
+  background-image: url("./images/helicopter.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -113,6 +113,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-img {
-	width: 100%;
+image {
+  width: 100%;
 }
