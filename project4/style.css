@@ -10,7 +10,7 @@ background-image: url(“helicopter.jpg”);
 background-position: center;
 background-repeat: no-repeat;
 position: relative;
-background-size: cover;
+background-size: contain;
 }
 .header-text {
 text-align: center;
