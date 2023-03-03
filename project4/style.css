@@ -5,7 +5,7 @@ body {
   margin: 0;
   background-color: #2C3531;
 }
-header {
+.header {
   background-image: url("./images/helicopter.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
