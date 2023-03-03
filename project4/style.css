@@ -5,12 +5,20 @@ body {
   margin: 0;
   background-color: #2C3531;
 }
-.header {
-  background-image: url("./images/helicopter.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
+.header-image {
+background-image: url(“helicopter.jpg”);
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+}
+.header-text {
+text-align: center;
+position: relative;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
 }
 .navigation ul{
 	list-style: none;
