@@ -73,7 +73,7 @@ h1 {
 
 h2 {
   color: #121627;
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   font-family: "Verdana", "Arial", sans-serif;
 }
@@ -134,7 +134,7 @@ img {
 }
 
 div.container {
-  text-align: center;
+  text-align: left;
   padding: 10px 20px;
 }
 #btn-group button {
