@@ -155,8 +155,8 @@ div.container {
   justify-content: center;
   margin: 0 auto;
 }
-#btn-group button: {
-  border-bottom: 0;
+#btn-group button {
+  border-bottom: none;
 }
 #btn-group button:hover {
   background-color: #013CDF;
