@@ -156,7 +156,7 @@ div.container {
   margin: 0 auto;
 }
 #btn-group button: {
-  border-bottom: none;
+  border-bottom: 0;
 }
 #btn-group button:hover {
   background-color: #013CDF;
