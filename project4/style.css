@@ -4,18 +4,18 @@
 
 body {
   margin: 0;
-  background-color: #2C3531;
+  background-color: #FFFFFF;
 }
 
 header {
-  background-color: #121627;
+  background-color: #4879FE;
   padding: 20px;
   text-align: left;
 }
 
 .navigation ul {
   list-style: none;
-  background: #116466;
+  background: #0C1A43;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -27,7 +27,7 @@ header {
 
 .navigation a {
   text-decoration: none;
-  color: #fff;
+  color: #FFFFFF;
   width: 100%;
   display: block;
   padding: 25px 20px;
@@ -38,7 +38,7 @@ header {
 }
 
 .navigation a:hover {
-  background: purple;
+  background: #013CDF;
 }
 
 .column {
@@ -67,21 +67,21 @@ header {
 }
 
 h1 {
-  color: #ffc;
+  color: #AEC3FF;
   text-align: left;
   font-size: 40px;
   font-family: "Verdana", "Arial", sans-serif;
 }
 
 h2 {
-  color: #121627;
+  color: #0C1A43;
   text-align: left;
   font-size: 30px;
   font-family: "Verdana", "Arial", sans-serif;
 }
 
 h3 {
-  color: #121627;
+  color: #0C1A43;
   text-align: center;
   font-size: 30px;
   font-family: "Verdana", "Arial", sans-serif;
@@ -104,7 +104,7 @@ cite {
   background-color: #CDD2EC;
 }
 
-.flex-container > div {
+.flex-container>div {
   background-color: #CDD2EC;
   margin: 10px;
   padding: 20px;
@@ -148,9 +148,9 @@ div.container {
 }
 
 #btn-group button {
-  background-color: #04AA6D;
-  border: 1px solid green;
-  color: white;
+  background-color: #0C1A43;
+  border: 1px solid black;
+  color: #FFFFFF;
   padding: 10px 24px;
   cursor: pointer;
   width: 50%;
@@ -165,5 +165,5 @@ div.container {
 }
 
 #btn-group button:hover {
-  background-color: #3e8e41;
+  background-color: #013CDF;
 }
