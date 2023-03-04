@@ -168,3 +168,6 @@ div.container {
   margin: 0 auto;
   text-align: center;
 }
+#identified {
+  background-color: #AEC3FF;
+}
