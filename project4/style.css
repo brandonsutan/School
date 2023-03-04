@@ -127,6 +127,7 @@ dl {
 dt {
   text-align: left;
 }
+
 hr {
   display: block;
   height: 1px;
@@ -135,15 +136,26 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
 img {
   width: 100%;
   height: auto;
 }
+
 div.container {
   text-align: left;
   padding: 10px 20px;
 }
-#btn-group button {
+
+.btn button {
+  border-bottom: none;
+}
+
+.btn button:hover {
+  background-color: #013CDF;
+}
+
+.btn {
   background-color: #0C1A43;
   border: 1px solid black;
   color: #FFFFFF;
@@ -154,10 +166,5 @@ div.container {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-}
-#btn-group button {
-  border-bottom: none;
-}
-#btn-group button:hover {
-  background-color: #013CDF;
+  text-align: center;
 }
