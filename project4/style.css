@@ -79,12 +79,14 @@ h2 {
   font-size: 30px;
   font-family: "Verdana", "Arial", sans-serif;
 }
+
 h3 {
   color: #121627;
   text-align: center;
   font-size: 30px;
   font-family: "Verdana", "Arial", sans-serif;
 }
+
 p {
   color: #121627;
   text-align: left;
@@ -102,7 +104,7 @@ cite {
   background-color: #CDD2EC;
 }
 
-.flex-container > div {
+.flex-container>div {
   background-color: #CDD2EC;
   margin: 10px;
   padding: 20px;
